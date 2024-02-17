@@ -1,8 +1,5 @@
 name: first workflow
-on: 
- push:
-   branches:
-     - 'main'
+on: workflow_dispatch
  
 jobs:
   first-job:
